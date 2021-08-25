@@ -1,0 +1,19 @@
+
+
+.fade-enter-active-fast {
+    transition: opacity 1s
+}
+
+.fade-enter-active-slow {
+    transition: opacity 2s
+}
+
+.fade-enter-active {
+    transition: opacity 1s
+}
+
+.fade-leave-active-fast { transition: opacity 1s; } 
+.fade-leave-active-slow { transition: opacity 2s; } 
+.fade-leave-active { transition: opacity 1s; } 
+.fade-enter, .fade-leave-to { opacity: 0; }
+
